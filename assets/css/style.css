@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.contact-form div h2 span {
+    color: crimson;
+}
+
+.contact-form .vorname {
+    width: 200px;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+
+.contact-form .nachnahme {
+    width: 200px;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+
+.contact-form .email {
+    width: 99%;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+
+.contact-form .thema {
+    width: 100%;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+
+.contact-form .nachricht {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contact-form .button {
+    width: 100%;
+    background-color: rgb(76, 0, 255);
+    padding: 5px 0px;
+    border: 0;
+    color: white;
+    font-size: 2rem;
+}
+
+.contact-form .button:hover {
+    background-color: black;
+}
